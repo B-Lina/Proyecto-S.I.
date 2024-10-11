@@ -1,0 +1,73 @@
+/*Hojas de Estilos*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+header {
+    background-color: #ffcccb;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 10px;
+    font-size: 36px;
+}
+
+#search-bar {
+    margin: 20px;
+    text-align: center;
+}
+
+#search-bar input {
+    padding: 10px;
+    width: 50%;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
+
+#productos-list {
+    margin: 20px;
+}
+
+#productos-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.producto {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.producto img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.producto h3 {
+    margin: 15px 0;
+    font-size: 18px;
+}
+
+.producto p {
+    font-size: 16px;
+    color: #666;
+}
